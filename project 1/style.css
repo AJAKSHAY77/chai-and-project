@@ -1,0 +1,28 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+
+}
+#box4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+}
+#box{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOCK</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    h1{
+        text-align: center;
+        color: blanchedalmond;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 15%;
+    }
+    #CLOCK{height: 65px;
+        margin-top:2%;
+         font-size: 39px;
+         
+        background-color: orange;
+        width: 220px;
+        margin-left: 43%;
+        border-radius: 6px;
+        text-align: center;
+        padding: 15px 12px;
+        font-weight: bolder;
+        padding-top: 30px;
+
+    }
+</style>
+<body>
+    <h1>Local-Time</h1>
+    <div id="CLOCK"></div>
+    
+</body>
+<script>
+    // const clock =document.getElementById("CLOCK")
+    // setInterval(()=>{
+    //   const date = new Date();
+    //   clock.innerHTML = date.toLocaleTimeString()
+    // },1000)
+
+    const clock = document.getElementById("CLOCK")
+    setInterval(()=>{
+        const date = new Date()
+        clock.innerHTML= date.toLocaleTimeString()
+
+    },1000)
+</script>
+</html>
