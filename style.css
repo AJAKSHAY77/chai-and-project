@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: aqua;
+    
+}
+h2{
+    background-color:white;
+    width: 15%;
+    margin-left: 42%;
+    color: black;
+    border-radius: 12px;
+    padding: 12px 10px;
+    transition: background-color 2s;
+    transition-timing-function: ease-in-out;
+   
+}
+h2:hover{
+    background-color: gold;
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: #414141;
+    text-align: center;
+   
+  
+}
+h1{
+    margin-top: 4%;
+    background-color: white;
+    width: 400px;
+    font-size: 30px;
+    padding: 12px;
+    margin-left: 35%;
+}
+#div{
+   height: 750px;
+   width: 600px;
+   background-color: black;
+   color: wheat;
+   border: 5px solid purple;
+   margin-left: 30%;
+   
+   font-size: 30px;
+   font-weight: bold;
+   border-radius: 10px;
+}
+#p1{
+    margin-top: 10%;
+
+
+}
+#div2{
+    margin-top: 4%;
+}
+.mid{
+display: flex;
+flex-direction: column;
+
+}
+.mid input{
+    width: 250px;
+    height: 20px;
+    margin-top: 3%;
+    padding: 15px 10px;
+    margin-left: 26%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#submit{
+    width: 200px;
+    height: 40px;
+    padding-bottom: 30px;
+    margin-left: 32%;
+
+}
+#highlowval{
+    font-size: 20px;
+    color: red;
+   
+
+}
+.Guesses{
+    color: red;
+    font-size: 22px;
+}
